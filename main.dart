@@ -3,10 +3,6 @@ import 'classToDo.dart';
 import 'popUpInsert.dart';
 import 'package:to_do_workshop/CardLayout.dart';
 
-// WIfi ssid : chinnese@KU
-// PW : 39207227
-// Go to : flutlab.io
-
 void main() {
   runApp(const MyApp());
 }
@@ -116,12 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     });
 
                   }
-                      /*(){
-                Navigator.pushAndRemoveUntil(
-                    context,
-                    MaterialPageRoute(builder: (context)=>MyHomePage()),
-                        (route) => false);
-              }*/
+                     
               ),
               extendedButtonOnDrawer(
                   'remove done TO DO ',
