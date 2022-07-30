@@ -27,25 +27,7 @@ class _popUpInsertState extends State<popUpInsert> {
               hintText: 'title',
             ),
           ),
-         /* Padding(
-            padding: const EdgeInsets.fromLTRB(0, 12, 0, 0),
-            child: Container(
-
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Colors.lightBlueAccent
-
-                ),
-              width: MediaQuery.of(context).size.width*0.6,
-              height: MediaQuery.of(context).size.width*0.1,
-              child: Center(
-                child: Text(
-                  'time to complete task is  '+defaultTime.hour.toString()+' : '+defaultTime.minute.toString(),
-                ),
-              ),
-            ),
-          ),
-*/
+        
           Padding(
             padding:  EdgeInsets.all(16.0),
             child: Container(
